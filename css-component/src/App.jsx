@@ -3,6 +3,8 @@ import { useState } from 'react'
 import './App.css'
 
 import MyCssComponent from './components/MyCssComponent'
+import Title from './components/Title'
+
 
 // meus componentes
 
@@ -66,7 +68,8 @@ function App() {
 
       <h2 className= {goldTitle ? 'gold-title': 'red-title'}>Esse titulo é alterado por uma classe</h2>
 
-      
+      {/* CSS MODULE */}
+        <Title/>
       
     </>
   )
